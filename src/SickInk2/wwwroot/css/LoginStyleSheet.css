@@ -1,0 +1,92 @@
+﻿body {
+    background-image: url('../images/tribalelephant.jpg');
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#headdiv {
+    background-color:transparent;
+    padding-bottom:5px;
+}
+
+#logoDiv {
+    display:inline-block;
+}
+
+#logo {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #b30000;
+    /*font-family: 'Kaushan Script', cursive;*/
+    font-size: 40pt;
+    text-decoration:underline;
+    text-shadow:2px 2px 2px #000;
+    display:inline;
+}
+
+#h1tag {
+    color:#b30000;
+    margin-bottom:60px;
+    margin-top:0px;
+    text-decoration:underline;
+    text-decoration-color:#b30000;
+    text-shadow:2px 2px 2px #000;
+}
+
+.navLinks {
+    color: #b30000;
+    font-family: 'Kaushan Script', cursive;
+    font-size:17pt;
+    text-shadow:2px 2px 2px #000;
+}
+
+#navDiv {
+    float:right;
+    padding-right:10px;
+    padding-top:7px;
+    display:inline;
+    margin-right:2%;
+}
+
+.userInputs {
+    text-align:center;
+    border-radius: 4px;
+    border-color:#b30000;
+    width:300px;
+    margin-bottom:10px;
+    /*font-family: 'Kaushan Script', cursive;*/
+
+}
+
+#inputDiv {
+    margin-bottom:35px;
+}
+
+#loginButton {
+    color:#b30000;
+    background-color:#262626;
+    /*font-family: 'Kaushan Script', cursive;*/
+    font-size:12pt;
+    border-color:#b30000;
+    border-radius: 4px;
+    text-shadow:2px 2px 2px #000;
+    margin-right:47px;
+    margin-top:7px;
+    margin-bottom:35px;
+}
+
+#ptext {
+    color:black;
+}
+
+#formDiv {
+    background-color:#4d4d4d;
+    display:inline-block;
+    padding:100px;
+    padding-top:50px;
+    border-radius:4px;
+    margin-left:13%;
+    margin-top:5%;
+}

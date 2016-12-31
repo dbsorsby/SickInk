@@ -1,0 +1,63 @@
+﻿body {
+    background-image: url('../images/decorativeblack.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+#headdiv {
+    background-color:transparent;
+    padding-bottom:5px;
+}
+
+#logoDiv {
+    display:inline-block;
+}
+
+#logo {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #b30000;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40pt;
+    text-decoration:underline;
+    text-shadow:2px 2px 2px #000;
+    display:inline;
+}
+
+.navLinks {
+    color: #b30000;
+    font-family: 'Kaushan Script', cursive;
+    font-size:17pt;
+    text-shadow:2px 2px 2px #000;
+}
+
+#navDiv {
+    float:right;
+    padding-right:10px;
+    padding-top:7px;
+    display:inline;
+    margin-right:2%;
+}
+
+.userInputs {
+    text-align:center;
+    border-radius: 4px;
+    border-color:#b30000;
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+
+
+#loginButton {
+    color:#b30000;
+    background-color:#262626;
+    font-family: 'Kaushan Script', cursive;
+    font-size:12pt;
+    border-color:#b30000;
+    border-radius: 4px;
+    text-shadow:2px 2px 2px #000;
+    margin-right:47px;
+    margin-top:7px;
+}

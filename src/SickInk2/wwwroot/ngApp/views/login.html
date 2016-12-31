@@ -1,0 +1,47 @@
+<link href="../../css/loginstylesheet.css" rel="stylesheet" />
+<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+
+<!--<fieldset>
+    <legend>Login with a Social Provider</legend>
+
+    <ul>
+        <li ng-repeat="externalLogin in account.externalLogins">
+            <a target="_self" href="/api/account/ExternalLogin?provider={{externalLogin.authenticationScheme}}&returnUrl=/">{{externalLogin.displayName}}</a>
+        </li>
+    </ul>
+
+</fieldset>-->
+
+<div id="headdiv">
+    <div id="logoDiv">
+        <h1 id="logo">Sick Ink</h1>
+    </div>
+    <div id="navDiv">
+        <a class="navLinks" ui-sref="main">Gallery /</a>
+        <a class="navLinks" ui-sref="about">About /</a>
+        <a class="navLinks" ui-sref="login">Login</a>
+    </div>
+</div>
+
+<fieldset>
+    <div id="formDiv">
+        <h1 id="h1tag">Login</h1>
+        <ul>
+            <li ng-repeat="error in controller.validationMessages">
+                {{error}}
+            </li>
+        </ul>
+
+        <form ng-submit="controller.login()">
+            <div id="inputDiv">
+
+                <input class="userInputs" ng-model="controller.loginUser.email" placeholder="Email" />
+
+                <br />
+                <input class="userInputs" type="password" ng-model="controller.loginUser.password" placeholder="Password" />
+            </div>
+            <input id="loginButton" type="submit" value="Login" />
+            <p id="ptext">Don't have a login yet?  Then click here to <a href="/register">Register</a>.  </p>
+        </form>
+    </div>
+</fieldset>
